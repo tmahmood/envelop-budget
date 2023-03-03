@@ -1,0 +1,6 @@
+[submodule "envelop-budget-ui-gtk"]
+	path = envelop-budget-ui-gtk
+	url = git@github.com:tmahmood/envelop-budget-ui-gtk.git
+[submodule "envelop-budget-lib"]
+	path = envelop-budget-lib
+	url = git@github.com:tmahmood/envelop-budget-lib.git
