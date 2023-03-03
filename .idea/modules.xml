@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/budget_manager.iml" filepath="$PROJECT_DIR$/budget_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/envelop-budget.iml" filepath="$PROJECT_DIR$/.idea/envelop-budget.iml" />
     </modules>
   </component>
 </project>

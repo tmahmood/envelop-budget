@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<schemalist>
-    <schema id="org.tmn.BudgetTracker" path="/org/tmn/BudgetTracker/">
-        <key name="default-income" type="b">
-            <default>false</default>
-            <summary>All transactions are income by default</summary>
-        </key>
-    </schema>
-</schemalist>

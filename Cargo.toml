@@ -1,7 +1,7 @@
 [workspace]
 
 members = [
-    "budget_manager",
-    "budget_manager_ui"
+    "envelop-budget-lib",
+    "envelop-budget-ui-gtk"
 ]
 
