@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4da10c6-5461-4a90-8c1d-df25ba211846" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/storage.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/storage/sqlite.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/envelop-budget-lib" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="wxch9uvk" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2MUsHlsUkAdx1x37PgYli3lwe4v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/mahmood/Documents/1Projects/py_sha256_cuda",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Run envelop-budget-ui-gtk">
+    <configuration name="Run envelop-budget-ui-gtk" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package envelop-budget-ui-gtk --bin envelop-budget-ui-gtk" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package envelop-budget-lib --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Run envelop-budget-ui-gtk" />
+      <item itemvalue="Cargo.Test lib::tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run envelop-budget-ui-gtk" />
+        <item itemvalue="Cargo.Test lib::tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4da10c6-5461-4a90-8c1d-df25ba211846" name="Changes" comment="" />
+      <created>1650085328581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650085328581</updated>
+      <workItem from="1677833411212" duration="482000" />
+      <workItem from="1677833916030" duration="4317000" />
+      <workItem from="1677850182538" duration="209000" />
+      <workItem from="1677850397025" duration="9977000" />
+      <workItem from="1677863770265" duration="1775000" />
+    </task>
+    <task id="LOCAL-00001" summary="More changes">
+      <created>1677833742981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677833742981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file">
+      <created>1677861565238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677861565238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More changes" />
+    <MESSAGE value="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
