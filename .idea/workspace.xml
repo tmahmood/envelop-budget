@@ -8,11 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4da10c6-5461-4a90-8c1d-df25ba211846" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/envelop-budget-lib" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budgeting_errors.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budgeting_errors.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/storage.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/storage/sqlite.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_transaction_dialog/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_transaction_dialog/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/window/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/window/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,8 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/envelop-budget-lib" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/envelop-budget-ui-gtk" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -143,7 +145,7 @@
       <workItem from="1677833916030" duration="4317000" />
       <workItem from="1677850182538" duration="209000" />
       <workItem from="1677850397025" duration="9977000" />
-      <workItem from="1677863770265" duration="1775000" />
+      <workItem from="1677863770265" duration="7416000" />
     </task>
     <task id="LOCAL-00001" summary="More changes">
       <created>1677833742981</created>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677861565238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file">
+      <created>1677866240038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677866240039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
