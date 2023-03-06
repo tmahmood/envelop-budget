@@ -8,11 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4da10c6-5461-4a90-8c1d-df25ba211846" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/resources/new_budget_account_dialog.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_budget_account_dialog/imp.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_budget_account_dialog/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/migrations/2022-11-15-073237_create_transactions/up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/migrations/2022-11-15-073237_create_transactions/up.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budget_account.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budget_account.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budgeting_errors.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/budgeting_errors.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/budgeting/transaction.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_transaction_dialog/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/new_transaction_dialog/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-lib/src/schema.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-lib/src/schema.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/resources/main_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/resources/main_window.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/window/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/envelop-budget-ui-gtk/src/window/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +36,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/envelop-budget-ui-gtk" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/envelop-budget-lib" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -62,7 +71,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/mahmood/Documents/1Projects/py_sha256_cuda",
+    "last_opened_file_path": "/home/mahmood/Documents/1Projects/Personal Projects/envelop-budget/envelop-budget-ui-gtk/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +89,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/envelop-budget-ui-gtk/resources" />
+      <recent name="$PROJECT_DIR$/envelop-budget-ui-gtk/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -145,7 +156,7 @@
       <workItem from="1677833916030" duration="4317000" />
       <workItem from="1677850182538" duration="209000" />
       <workItem from="1677850397025" duration="9977000" />
-      <workItem from="1677863770265" duration="7416000" />
+      <workItem from="1677863770265" duration="16679000" />
     </task>
     <task id="LOCAL-00001" summary="More changes">
       <created>1677833742981</created>
@@ -168,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677866240039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Editing transaction is now possible. But editing Transfer In/Out will cause inconsistency. Need to fix that.">
+      <created>1677936806763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677936806763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More changes" />
     <MESSAGE value="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using memory db for tests, a lot faster now. &#10;&#10;Also, db file can be loaded from .env file" />
+    <MESSAGE value="Editing transaction is now possible. But editing Transfer In/Out will cause inconsistency. Need to fix that." />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing transaction is now possible. But editing Transfer In/Out will cause inconsistency. Need to fix that." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
